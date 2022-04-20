@@ -1,0 +1,89 @@
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+    padding-left: 2%;
+}
+.a-button{
+    color: white;
+    background-color: rgb(255, 26, 117);
+    padding: 7px 36px;
+    text-decoration: none;
+    border-radius: 7px;
+    position: relative;
+    top: 20px;
+    display: inline-block;
+}
+.a-button h2{
+    font-size: 20px;
+}
+div img{
+    width: 80%
+}
+.header-area{
+    background-image: url(./imges/header-bg.png);
+    background-size: 100%;
+   
+}
+section{
+    height: 500px;
+    padding-bottom: 270px;
+    
+}
+h1, h2{
+    font-family: 'Akshar', sans-serif;
+}
+h1{
+    font-size: 39px;
+}
+#name{
+    margin-top: 60px;
+    
+}
+.pink-color{
+   color: rgb(255, 26, 117);
+}
+.biography{
+    background-image: url(./imges/biography-bg.png);
+    background-size: 80%;
+    margin-bottom: 40px;
+    
+}
+.mid{
+    position: relative;
+    top: 162px;
+}
+.latest-work{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    
+}
+.latest-work img{
+
+    width: 23%;
+    margin: 0px 30px;
+    margin-bottom: 150px;
+}
+.footer{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.footer h1{
+    position: relative;
+    bottom: 30px;
+}
+.footer h3{
+    position:relative;
+    top: 30px;
+}
+.footer h4{
+    font-size: 20px;
+}
+.footer a{
+    position: relative;
+    top: 40px;
+}
+#footer{
+    text-align: center;
+}
