@@ -1,3 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 10px 48px;
+    display: inline-block;
+    border-right:  5px solid white;
+    
+    
+  }
+  ul li a{
+      
+      text-decoration: none;
+      font-size: 27px;
+      color: white;
+  }
+ul{
+    text-align: center;
+    background-color: rgb(255, 26, 117); 
+    margin-top:  -5px;
+}
+li:nth-child(1){
+    border-left: 5px solid white;
+}
+li:hover{
+    background-color: gray;
+    margin-left: -5px;
+    
+}
 .half-width{
     width: 40%;
     float: left;
@@ -19,6 +51,15 @@
 }
 div img{
     width: 80%
+}
+.peter{
+    position: relative;
+    top: 50px;
+}
+.peter2{
+    position: relative;
+    top: 50px;
+    width: 74%;
 }
 .header-area{
     background-image: url(./imges/header-bg.png);
@@ -57,17 +98,37 @@ h1{
     text-align: center;
     position: relative;
     top: 150px;
+    background-image: url(./imges/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 64%;
     
 }
 .latest-work img{
 
-    width: 23%;
+    width: 26%;
     margin: 0px 30px;
     margin-bottom: 150px;
 }
 .footer{
     text-align: center;
     padding-bottom: 40px;
+    background-image: url(./imges/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 64%;
+}
+.boxshadow{
+    position: relative;
+    top: 70px;
+    box-shadow: 7px 10px 40px rgb(255, 26, 117);;
+    border-radius: 20px;
+    
+   
+}
+.boxshadow img{
+    position: relative;
+    top: 50px;
+    
 }
 .footer h1{
     position: relative;
@@ -82,7 +143,7 @@ h1{
 }
 .footer a{
     position: relative;
-    top: 40px;
+    top: 96px;
 }
 #footer{
     text-align: center;
